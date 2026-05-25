@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="SVJ Trades">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="20" x2="168" y2="172" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061827"/>
+      <stop offset="0.55" stop-color="#05070d"/>
+      <stop offset="1" stop-color="#071f33"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="45" y1="34" x2="150" y2="158" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8eefff"/>
+      <stop offset="0.48" stop-color="#00c8ff"/>
+      <stop offset="1" stop-color="#0875ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="192" height="192" rx="44" fill="url(#bg)"/>
+  <path d="M96 20 160 57v78l-64 37-64-37V57z" fill="#07111f" stroke="url(#cyan)" stroke-width="9" filter="url(#glow)"/>
+  <path d="M96 39 143 66v60l-47 27-47-27V66z" fill="none" stroke="#8eefff" stroke-width="3" opacity=".72"/>
+  <text x="96" y="115" text-anchor="middle" font-family="Arial Black, Impact, Arial, sans-serif" font-size="45" font-weight="900" letter-spacing="3" fill="#ffffff">SVJ</text>
+</svg>
